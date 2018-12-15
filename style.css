@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background: #F5D9DF;
     font-family: "Nunito", sans-serif;
@@ -53,8 +57,46 @@ body{
     transition: background 500ms;
 }
 
+/*--ABOUT--*/
+
+.aboutHeader{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 200px;
+    padding-left: 80px;
+    text-align: center;
+    
+}
+
+.aboutBody{
+    font-weight: 200;
+    font-size: 20px;
+    padding-left: 80px;
+    color: #fff;
+    align-content: center;
+    text-align: center;
+
+    
+    
+}
+
+/*-----MEDIA QUERY------*/
 @media (max-width: 1200px){
     #headingGroup h1{
     font-weight: 100;
     font-size: 3rem;
 }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
